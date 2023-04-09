@@ -128,7 +128,7 @@ img {
 .header__border{
   width: 100%;
   height: 2px;
-  background-image: linear-gradient(90deg, var(__text-color-light) 50%, transparent 50%);
+  background-image: linear-gradient(90deg, var(--text-color-light) 50%, transparent 50%);
   background-size: 24px;
   position: absolute;
   bottom: 0;
@@ -220,7 +220,7 @@ img {
   font-size: var(--normal-font-size);
   color: var(--second-color);
   font-weight: var(--font-medium);
-  margin-bottom: 75rem;
+  margin-bottom: .75rem;
 }
 
 .home__title,
